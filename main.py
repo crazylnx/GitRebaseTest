@@ -1,9 +1,12 @@
 def hello_microservice():
     print("hello microservice")
-    # must be avoid
-    print("password")
+
+
+def hi_raft():
+    print("hi raft")
 
 
 if __name__ == "__main__":
+    hi_raft()
     hello_microservice()
     print("hello serverless")
